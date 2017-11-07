@@ -39,6 +39,17 @@ nav a {
 nav a:hover {
     background-color: #212121;
 }
+/* dropdown menu styles */
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+/* display dropdowns on hover */
+nav ul li:hover > ul {
+    display: inherit;
+    background-color: #AA898A;
+    width: 150px;
+}
 
 /* Responsive Styles with CSS media query */
 @media all and (max-width : 768px) {
